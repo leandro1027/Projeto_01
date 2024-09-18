@@ -4,3 +4,64 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+/*Boot Css*/
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w33{
+    width: 33%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+/*Estilização do site*/
+
+/*Header*/
+
+header{
+    background-color: rgb(75, 221, 75);
+    padding: 10px 0;
+}
+
+header .logo{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.mobile{
+    display: none;
+}
+
+nav.desktop ul{
+    list-style-type: none;
+}
+
+nav.desktop li{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav.desktop a{
+    color: white;
+    text-decoration: none;
+}
+
