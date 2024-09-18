@@ -59,7 +59,7 @@
                     exercitationem .</p>
             </div>
             <div class="w50">
-                <img src="assets/img/local-trabalho.png" alt="Local de trabalho">
+                <img src="assets/img/imagem-ifpr.jpg" alt="Local de trabalho">
             </div>
         </div>
     </section>
@@ -127,7 +127,7 @@
                     perferendis nobis sed illo molestiae magnam corporis mollitia,
                     consequuntur molestiaspariatur commodi sint tempora praesentium!
                     rem magnam!</p>
-                    <p class="nome-autor">Lorem Ipsum</p>
+                <p class="nome-autor">Lorem Ipsum</p>
             </div>
         </div>
         <div class="w50">
@@ -135,27 +135,34 @@
                 <div class="servicos">
                     <ul>
                         <li>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
                             animi aut, eius, ullam quo illum veniam excepturi nostrum a cumque facilis
-                             deleniti laudantium ratione dicta? Enim hic aspernatur praesentium tenetur.
+                            deleniti laudantium ratione dicta? Enim hic aspernatur praesentium tenetur.
                         </li>
                         <li>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
                             animi aut, eius, ullam quo illum veniam excepturi nostrum a cumque facilis
-                             deleniti laudantium ratione dicta? Enim hic aspernatur praesentium tenetur.
+                            deleniti laudantium ratione dicta? Enim hic aspernatur praesentium tenetur.
                         </li>
                         <li>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
                             animi aut, eius, ullam quo illum veniam excepturi nostrum a cumque facilis
-                             deleniti laudantium ratione dicta? Enim hic aspernatur praesentium tenetur.
+                            deleniti laudantium ratione dicta? Enim hic aspernatur praesentium tenetur.
                         </li>
                     </ul>
                 </div>
-            </h2>
+        </div>
         </div>
     </section>
     <!--Extras-->
 
+    <!--Footer-->
+    <footer>
+        <div class="center">
+            <p>Todos os direitos reservados!</p>
+        </div>
+    </footer>
+    <!--Footer-->
 </body>
 
 </html>
