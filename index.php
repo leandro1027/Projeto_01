@@ -25,7 +25,7 @@
     <!--header-->
     <header>
         <div class="center">
-            <div class="logo left"></div>
+            <div class="logo left">Logomarca</div>
             <nav class="desktop right">
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -36,6 +36,7 @@
             </nav>
 
             <nav class="mobile right">
+                <div class=" bars-mobile fa-solid fa-bars"></div>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Sobre</a></li>
@@ -50,6 +51,7 @@
 
     <!--Banner principal-->
     <section class="banner-principal">
+        <div class="overlay"></div>
         <div class="center">
             <form action="">
                 <h2>Qual o seu melhor e-mail?</h2>
