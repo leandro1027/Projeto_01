@@ -158,7 +158,7 @@ section.especialidades .title{
 /*Extras*/
 
 section.extras{
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: rgb(214, 250, 214);
 }
 
@@ -173,7 +173,7 @@ section-extras .title{
 }
 
 section.extras .depoimentos-single{
-    padding: 10px 0;
+    padding: 10px 3px;
     border-bottom: 2px solid black;
 }
 
@@ -181,6 +181,27 @@ p.depoimentos-descricao{
     font-size: 18px;
 }
 
+p.nome-autor{
+    color: red;
+    font-weight: bold;
+}
+
+.servicos ul{
+    margin: 10px 0;
+}
+
+.servicos li{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: rgb(75, 221, 75);
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
 @media screen and (max-width: 768px)
 {
     img{
@@ -191,6 +212,9 @@ p.depoimentos-descricao{
 
     .w50{
         padding: 10px;
+        width: 100%;
+    }
+    .w33{
         width: 100%;
     }
 

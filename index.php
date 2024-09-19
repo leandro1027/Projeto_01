@@ -120,7 +120,7 @@
         <div class="center">
             <div class="w50 left depoimentos-container">
                 <h2 class="title">Depoimentos</h2>
-                <div class="depoimentos-single">
+                <div class="depoimento-single">
                     <p class="depoimento-descricao">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Assumenda, totam repudiandae? Officiis id nemo iste ipsa
@@ -137,19 +137,18 @@
                     </p>
                     <p class="nome-autor">Lorem ipsum</p>
                 </div>
-            </div>
-            <div class="depoimento-single">
-                <p class="depoimento-single">
-                <p class="depoimento-descricao"> Lorem ipsum dolor sit,
-                    amet consectetur adipisicing elit. Voluptatibus cum ratione
-                    perferendis nobis sed illo molestiae magnam corporis mollitia,
-                    consequuntur molestiaspariatur commodi sint tempora praesentium!
-                    rem magnam!</p>
-                <p class="nome-autor">Lorem Ipsum</p>
+                <div class="depoimeto-single">
+                    <p class="depoimento-descricao">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate
+                        saepe consequuntur voluptatibus quae placeat, nostrum sunt illo numquam,
+                        aliquid dolore, quas ullam recusandae? Iste eum rem qui laboriosam minima.
+                    </p>
+                    <p class="nome-autor">Lorem ipsum</p>
+                </div>
             </div>
         </div>
-        <div class="w50 left">
-            <h2 class="title">
+        <div class="w50 left servicos-container">
+            <h2 class="title">Serviços</h2>
                 <div class="servicos">
                     <ul>
                         <li>
