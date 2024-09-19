@@ -118,10 +118,10 @@
     <!--Extras-->
     <section class="extras">
         <div class="center">
-            <div class="w50 left">
+            <div class="w50 left depoimentos-container">
                 <h2 class="title">Depoimentos</h2>
                 <div class="depoimentos-single">
-                    <p class="depoimentos-descricao">
+                    <p class="depoimento-descricao">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Assumenda, totam repudiandae? Officiis id nemo iste ipsa
                         perferendis quas totam natus voluptatem

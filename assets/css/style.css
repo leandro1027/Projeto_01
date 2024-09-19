@@ -131,6 +131,7 @@ section.banner-principal form input[type=submit] {
     cursor: pointer;
 }
 
+/*Especialidades*/
 section.especialidades{
     text-align: center;
     font-size: 18px;
@@ -152,6 +153,32 @@ section.especialidades .title{
 
 .box-especialidades p{
     margin-top: 10px;
+}
+
+/*Extras*/
+
+section.extras{
+    padding: 10px 0;
+    background-color: rgb(214, 250, 214);
+}
+
+.depoimentos-container, .servicos-container{
+    padding: 10px 2%;
+}
+
+section-extras .title{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+section.extras .depoimentos-single{
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+}
+
+p.depoimentos-descricao{
+    font-size: 18px;
 }
 
 @media screen and (max-width: 768px)
@@ -204,7 +231,7 @@ section.especialidades .title{
     }
 
     .box-especialidades {
+        width: 100%;
         display: inline-block;
-        align-items: center;
     }
 }
