@@ -77,7 +77,8 @@
             <div class="w50 left">
                 <img src="assets/img/imagem-ifpr.jpg" alt="Local de trabalho">
             </div>
-            <div class="clear"></div> <!--Clear float-->
+            <div class="clear"></div>
+            <!--Clear float-->
         </div>
     </section>
     <!--Descrição autor-->
@@ -129,7 +130,7 @@
                     </p>
                     <p class="nome-autor">Lorem ipsum</p>
                 </div>
-                <div class="depoimeto-single">
+                <div class="depoimento-single">
                     <p class="depoimento-descricao">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate
                         saepe consequuntur voluptatibus quae placeat, nostrum sunt illo numquam,
@@ -137,7 +138,7 @@
                     </p>
                     <p class="nome-autor">Lorem ipsum</p>
                 </div>
-                <div class="depoimeto-single">
+                <div class="depoimento-single">
                     <p class="depoimento-descricao">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate
                         saepe consequuntur voluptatibus quae placeat, nostrum sunt illo numquam,
@@ -146,9 +147,9 @@
                     <p class="nome-autor">Lorem ipsum</p>
                 </div>
             </div>
-        </div>
-        <div class="w50 left servicos-container">
-            <h2 class="title">Serviços</h2>
+
+            <div class="w50 left servicos-container">
+                <h2 class="title">Serviços</h2>
                 <div class="servicos">
                     <ul>
                         <li>
@@ -168,8 +169,10 @@
                         </li>
                     </ul>
                 </div>
-        </div>
-        <div class="clear"></div> <!--clear float-->
+            </div>
+
+            <div class="clear"></div>
+            <!--clear float-->
         </div>
     </section>
     <!--Extras-->

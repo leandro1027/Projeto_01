@@ -132,103 +132,106 @@ section.banner-principal form input[type=submit] {
 }
 
 /*Especialidades*/
-section.especialidades{
+section.especialidades {
     text-align: center;
     font-size: 18px;
     padding: 20px 0;
     background-color: rgb(117, 243, 117);
 }
 
-section.especialidades .title{
+section.especialidades .title {
     font-size: 40px;
 }
 
-.box-especialidades{
+.box-especialidades {
     margin: 20px 0;
 }
 
-.box-especialidades h3 i{
+.box-especialidades h3 i {
     font-size: 100px;
 }
 
-.box-especialidades p{
+.box-especialidades p {
     margin-top: 10px;
 }
 
 /*Extras*/
 
-section.extras{
+section.extras {
     padding: 20px 0;
     background-color: rgb(214, 250, 214);
 }
 
-.depoimentos-container, .servicos-container{
+.depoimentos-container,
+.servicos-container {
     padding: 10px 2%;
 }
 
-section-extras .title{
+section.extras .title {
     font-size: 32px;
     text-align: center;
     padding-bottom: 10px;
 }
 
-section.extras .depoimentos-single{
+section.extras .depoimento-single {
     padding: 10px 3px;
     border-bottom: 2px solid black;
 }
 
-p.depoimentos-descricao{
+p.depoimentos-descricao {
     font-size: 18px;
 }
 
-p.nome-autor{
+p.nome-autor {
     color: red;
     font-weight: bold;
 }
 
-.servicos ul{
+.servicos ul {
     margin: 10px 0;
 }
 
-.servicos li{
+.servicos li {
     font-size: 18px;
     margin-top: 10px;
 }
 
-footer{
+footer {
     background-color: rgb(75, 221, 75);
     padding: 10px;
     text-align: center;
     color: black;
     font-weight: bold;
 }
-@media screen and (max-width: 768px)
-{
-    img{
+
+@media screen and (max-width: 768px) {
+    img {
         display: block;
         margin: 0 auto;
         max-width: 600px;
     }
 
-    .w50{
+    .w50 {
         padding: 10px;
         width: 100%;
     }
-    .w33{
+
+    .w33 {
         width: 100%;
     }
 
-    nav.desktop{
+    nav.desktop {
         display: none;
     }
 
-    nav.mobile{
+    nav.mobile {
         display: block;
         color: white;
         font-size: 24px;
         cursor: pointer;
     }
-    nav.mobile ul{
+
+    nav.mobile ul {
         margin-top: 70px;
         z-index: 3;
         position: absolute;
@@ -239,7 +242,7 @@ footer{
         display: none;
     }
 
-    nav.mobile li{
+    nav.mobile li {
         display: block;
         list-style-type: none;
         width: 100%;
@@ -248,14 +251,10 @@ footer{
         border-top: 1px solid white;
     }
 
-    nav.mobile li a{
+    nav.mobile li a {
         text-decoration: none;
         color: white;
         font-size: 22px;
     }
 
-    .box-especialidades {
-        width: 100%;
-        display: inline-block;
-    }
 }
