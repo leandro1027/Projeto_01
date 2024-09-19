@@ -36,7 +36,7 @@
             </nav>
 
             <nav class="mobile right">
-                <div class=" bars-mobile fa-solid fa-bars"></div>
+                <div class="bars-mobile fa-solid fa-bars"></div>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Sobre</a></li>

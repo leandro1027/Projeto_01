@@ -131,8 +131,52 @@ section.banner-principal form input[type=submit] {
     cursor: pointer;
 }
 
-@media screen and (max-widht: 768px)
+section.especialidades{
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    background-color: rgb(117, 243, 117);
+}
+
+section.especialidades .title{
+    font-size: 40px;
+}
+
+.box-especialidades{
+    margin: 20px 0;
+}
+
+.box-especialidades h3 i{
+    font-size: 100px;
+}
+
+.box-especialidades p{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px)
 {
+    img{
+        display: block;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+    .w50{
+        padding: 10px;
+        width: 100%;
+    }
+
+    nav.desktop{
+        display: none;
+    }
+
+    nav.mobile{
+        display: block;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+    }
     nav.mobile ul{
         margin-top: 70px;
         z-index: 3;
@@ -141,7 +185,7 @@ section.banner-principal form input[type=submit] {
         width: 100%;
         background-color: black;
         text-align: center;
-        display: block;
+        display: none;
     }
 
     nav.mobile li{
@@ -157,5 +201,10 @@ section.banner-principal form input[type=submit] {
         text-decoration: none;
         color: white;
         font-size: 22px;
+    }
+
+    .box-especialidades {
+        display: inline-block;
+        align-items: center;
     }
 }
