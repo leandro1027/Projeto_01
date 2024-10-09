@@ -63,7 +63,8 @@
         if(file_exists('pages/'.$url.'.php')){
             echo('existe');
         }else{
-            echo 'Não existe';}
+           include('pages/404.php');
+        }
     ?>
 
    
