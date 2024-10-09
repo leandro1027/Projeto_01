@@ -37,6 +37,11 @@
     <?php
     //Obtendo a url se existir ou home
         $url = isset($_GET['url']) ? $_GET['url'] : 'home';
+
+        if(file_exists('pages/'.$url.'.php')){
+            echo('existe');
+        }else{
+            echo 'Não existe';}
     ?>
 
    
