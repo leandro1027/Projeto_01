@@ -232,7 +232,7 @@ footer {
     }
 
     nav.mobile ul {
-        margin-top: 70px;
+        margin-top: 10px;
         z-index: 3;
         position: absolute;
         left: 0;
