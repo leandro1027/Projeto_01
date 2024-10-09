@@ -22,6 +22,10 @@
 
 <body>
 
+    <?php
+        echo $_GET['url'];
+    ?>
+
     <!--header-->
     <header>
         <div class="center">
@@ -29,7 +33,7 @@
             <nav class="desktop right">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Depoimentos</a></li>
                     <li><a href="#">Serviços</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
@@ -39,7 +43,7 @@
                 <div class="bars-mobile fa-solid fa-bars"></div>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Depoimentos</a></li>
                     <li><a href="#">Serviços</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
@@ -184,6 +188,14 @@
         </div>
     </footer>
     <!--Footer-->
+
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--jquery-->
+
+    <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>
