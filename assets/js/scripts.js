@@ -2,7 +2,7 @@ $(function(){
     $('nav.mobile').click(function(){
         var listaMenu = $('nav.mobile ul');
 
-        if(listaMenu.is('hidden')){
+        if(listaMenu.is(':hidden')){
             var icone = $('nav.mobile div');
             icone.removeClass('fa-bars');
             icone.addClass('fa-xmark');
