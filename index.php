@@ -100,6 +100,11 @@
     <!--jquery-->
 
     <script src="<?php echo INCLUDE_PATH;?>assets/js/scripts.js"></script>
+
+    <?php if($url =='home' || $url =='') { ?>
+        <script src="<?php echo INCLUDE_PATH;?>assets/js/slider.js"></script>
+    <?php } ?>
+       
 </body>
 
 </html>

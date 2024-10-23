@@ -82,10 +82,18 @@ nav.desktop a {
 section.banner-principal {
     width: 100%;
     height: 600px;
-    background-image: url(../img/imagem-ifpr.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
+}
+
+.banner-single{
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 section .overlay {
@@ -200,6 +208,7 @@ p.nome-autor {
     font-size: 18px;
     margin-top: 10px;
 }
+
 
 section.erro-404{
     padding: 100px;

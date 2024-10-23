@@ -14,8 +14,14 @@ $(function(){
             var icone = $('nav.mobile div');
             icone.removeClass('fa-xmark');
             icone.addClass('fa-bars');
-
             listaMenu.slideToggle();
         }
-    })
+    });
+
+    if($('target').length > 0){
+        var elemento = '#'+$('target').attr('targer');
+        var divScroll = $(elemento).offset().top;
+        $('html, body').animate({'scrolltop':divScroll}, 2000);
+    
+    }
 })
