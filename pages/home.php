@@ -4,9 +4,7 @@
     <div style="background-image:url('<?php echo INCLUDE_PATH;?>assets/img/bg_slide1.jpg')"class ="banner-single"> </div>
     <div style="background-image:url('<?php echo INCLUDE_PATH;?>assets/img/bg_slide2.jpg')"class ="banner-single"> </div>
     <div style="background-image:url('<?php echo INCLUDE_PATH;?>assets/img/bg_slide3.jpg')"class ="banner-single"> </div>
-    <div class="banner-single"> </div>
-    <div class="banner-single"> </div>
-
+    
      <div class="overlay"></div>
      <div class="center">
          <form action="">
