@@ -25,13 +25,13 @@ $(function () {
 
     function changeSlider() {
         setInterval(function () {
-            $('.banner-single').eq(currentSlide).fadeOut(3000);
+            $('.banner-single').eq(currentSlide).stop().fadeOut(3000);
             currentSlide++;
 
             if (currentSlide > maxSlide)
                 currentSlide = 0;
 
-            $('.banner-single').eq(currentSlide).fadeIn(3000);
+            $('.banner-single').eq(currentSlide).stop().fadeIn(3000);
             $('.bullets span').removeClass('active-slider');
             $('.bullets span').eq(currentSlide).addClass('active-slider');
 
@@ -41,10 +41,10 @@ $(function () {
     $('body').on('click', '.bullets span', function(){  
           var currentBullet = $(this);
 
-          $('.banner-single').eq(currentSlide).fadeOut();
+          $('.banner-single').eq(currentSlide).stop().fadeOut();
           currentSlide = currentBullet.index();
-          $('.banner-single').eq(currentSlide).fadeIn();
-          
+          $('.banner-single').eq(currentSlide).stop().fadeIn();
+
           $('.bullets span').removeClass('active-slider');
           currentBullet.addClass('active-slider');
     })
