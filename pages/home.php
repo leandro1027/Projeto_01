@@ -15,7 +15,7 @@
      </div>
 
      <div class="bullets">
-        <span class="active_slider"></span>
+        <span class="active-slider"></span>
         <span></span>
         <span></span>
      </div>
