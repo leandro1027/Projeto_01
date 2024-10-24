@@ -10,9 +10,14 @@ $(function () {
         $('.banner-single').hide();
         $('.banner-single').eq(currentSlide).show();
 
-        for(var i = 0; i < maxSlide +1; i++){
+        for (var i = 0; i < maxSlide + 1; i++) {
             var content = $('.bullets').html();
-            content += '<span></span>';
+
+            if (i == 0) {
+                content += '<span class="active-slider"> </span>';
+            } else {
+                content += '<span></span>'
+            }
             $('.bullets').html(content);
         }
     }
