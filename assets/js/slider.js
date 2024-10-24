@@ -9,6 +9,12 @@ $(function () {
     function initSlider() {
         $('.banner-single').hide();
         $('.banner-single').eq(currentSlide).show();
+
+        for(var i = 0; i < maxSlide +1; i++){
+            var content = $('.bullets').html();
+            content += '<span></span>';
+            $('.bullets').html(content);
+        }
     }
 
     function changeSlider() {

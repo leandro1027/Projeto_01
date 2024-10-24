@@ -1,10 +1,10 @@
  <!--Banner principal-->
  <section class="banner-principal">
 
-    <div style="background-image:url('<?php echo INCLUDE_PATH;?>assets/img/bg_slide1.jpg')"class ="banner-single"> </div>
-    <div style="background-image:url('<?php echo INCLUDE_PATH;?>assets/img/bg_slide2.jpg')"class ="banner-single"> </div>
-    <div style="background-image:url('<?php echo INCLUDE_PATH;?>assets/img/bg_slide3.jpg')"class ="banner-single"> </div>
-    
+     <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/bg_slide1.jpg')" class="banner-single"> </div>
+     <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/bg_slide2.jpg')" class="banner-single"> </div>
+     <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/bg_slide3.jpg')" class="banner-single"> </div>
+
      <div class="overlay"></div>
      <div class="center">
          <form action="">
@@ -14,11 +14,7 @@
          </form>
      </div>
 
-     <div class="bullets">
-        <span class="active-slider"></span>
-        <span></span>
-        <span></span>
-     </div>
+     <div class="bullets"> </div>
 
  </section>
  <!--Banner principal-->
@@ -80,7 +76,7 @@
  <!--Extras-->
  <section class="extras">
      <div class="center">
-         <div  id="depoimentos"class="w50 left depoimentos-container">
+         <div id="depoimentos" class="w50 left depoimentos-container">
              <h2 class="title">Depoimentos</h2>
              <div class="depoimento-single">
                  <p class="depoimento-descricao">

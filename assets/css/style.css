@@ -7,10 +7,12 @@
 
 /*Boot Css*/
 
-html, body{
+html,
+body {
     overflow-x: hidden;
     height: 100%;
 }
+
 .center {
     max-width: 1280px;
     padding: 0 2%;
@@ -85,22 +87,22 @@ section.banner-principal {
     position: relative;
 }
 
-section.descricao-autor{
+section.descricao-autor {
     padding: 30px 0;
 }
 
-section.descricao-autor h2{
+section.descricao-autor h2 {
     font-size: 32px;
 }
 
-section.descricao-autor p{
+section.descricao-autor p {
     margin-top: 10px;
     font-size: 18px;
     text-align: justify;
 }
 
 
-.banner-single{
+.banner-single {
     z-index: 0;
     position: absolute;
     left: 0;
@@ -225,23 +227,23 @@ p.nome-autor {
 }
 
 
-section.erro-404{
+section.erro-404 {
     padding: 100px;
     text-align: center;
     min-height: 500px;
     font-size: 24px;
 }
 
-section.erro-404 i{
+section.erro-404 i {
     padding: 0 10px;
 }
 
-section.erro-404 h2{
+section.erro-404 h2 {
     border-bottom: 2px solid black;
 }
 
-section.erro-404 a{
-    color: rgb(75, 221, 75);    
+section.erro-404 a {
+    color: rgb(75, 221, 75);
 }
 
 footer {
@@ -252,26 +254,27 @@ footer {
     font-weight: bold;
 }
 
-footer.fixed{
+footer.fixed {
     position: fixed;
     bottom: 0px;
     width: 100%;
 }
+
 /*contato*/
-.contato-container{
+.contato-container {
     display: block;
     max-width: 800px;
     margin: 20px auto;
 }
 
-.contato-container input[type="text"]{
+.contato-container input[type="text"] {
     width: 100%;
     margin: 6px 0;
     padding: 8px;
     font-size: 18px;
 }
 
-.contato-container textarea{
+.contato-container textarea {
     width: 100%;
     margin: 6px 0;
     padding: 8px;
@@ -280,7 +283,7 @@ footer.fixed{
     resize: none;
 }
 
-.contato-container input[type="submit"]{
+.contato-container input[type="submit"] {
     width: 100%;
     margin: 6px 0;
     padding: 8px;
@@ -289,7 +292,7 @@ footer.fixed{
     cursor: pointer;
 }
 
-.bullets{
+.bullets {
     position: absolute;
     z-index: 2;
     left: 50%;
@@ -298,7 +301,7 @@ footer.fixed{
     display: flex;
 }
 
-.bullets span{
+.bullets span {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -308,7 +311,11 @@ footer.fixed{
     margin: 5px;
 }
 
-.map iframe{
+.bullets span.active-slider {
+    background-color: rgb(75, 221, 75);
+}
+
+.map iframe {
     width: 100%;
     height: 400px;
 }
