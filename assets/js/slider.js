@@ -40,7 +40,12 @@ $(function () {
 
     $('body').on('click', '.bullets span', function(){  
           var currentBullet = $(this);
+
+          $('.banner-single').eq(currentSlide).fadeOut();
+          currentSlide = currentBullet.index();
+          $('.banner-single').eq(currentSlide).fadeIn();
+          
           $('.bullets span').removeClass('active-slider');
-          currentBullet.addClass('active-slider')
+          currentBullet.addClass('active-slider');
     })
 })
