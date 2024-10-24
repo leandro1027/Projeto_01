@@ -85,6 +85,21 @@ section.banner-principal {
     position: relative;
 }
 
+section.descricao-autor{
+    padding: 30px 0;
+}
+
+section.descricao-autor h2{
+    font-size: 32px;
+}
+
+section.descricao-autor p{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
 .banner-single{
     z-index: 0;
     position: absolute;
@@ -274,7 +289,24 @@ footer.fixed{
     cursor: pointer;
 }
 
+.bullets{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    display: flex;
+}
 
+.bullets span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    margin: 5px;
+}
 
 .map iframe{
     width: 100%;

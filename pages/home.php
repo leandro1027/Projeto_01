@@ -13,6 +13,13 @@
              <input type="submit" name="enviar" value="Enviar">
          </form>
      </div>
+
+     <div class="bullets">
+        <span class="active_slider"></span>
+        <span></span>
+        <span></span>
+     </div>
+
  </section>
  <!--Banner principal-->
 
@@ -73,7 +80,7 @@
  <!--Extras-->
  <section class="extras">
      <div class="center">
-         <div class="w50 left depoimentos-container">
+         <div  id="depoimentos"class="w50 left depoimentos-container">
              <h2 class="title">Depoimentos</h2>
              <div class="depoimento-single">
                  <p class="depoimento-descricao">
@@ -102,7 +109,7 @@
              </div>
          </div>
 
-         <div class="w50 left servicos-container">
+         <div id="servicos" class="w50 left servicos-container">
              <h2 class="title">Serviços</h2>
              <div class="servicos">
                  <ul>
