@@ -18,6 +18,7 @@ $(function () {
             } else {
                 content += '<span></span>'
             }
+
             $('.bullets').html(content);
         }
     }
@@ -30,8 +31,16 @@ $(function () {
             if (currentSlide > maxSlide)
                 currentSlide = 0;
 
-            $('.banner-single').eq(currentSlide).fadeIn(2000);
+            $('.banner-single').eq(currentSlide).fadeIn(3000);
+            $('.bullets span').removeClass('active-slider');
+            $('.bullets span').eq(currentSlide).addClass('active-slider');
 
         }, delay * 1000);
     }
+
+    $('body').on('click', '.bullets span', function(){  
+          var currentBullet = $(this);
+          $('.bullets span').removeClass('active-slider');
+          currentBullet.addClass('active-slider')
+    })
 })
