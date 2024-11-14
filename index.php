@@ -25,7 +25,9 @@
 
 <body>
 
-    
+    <?php
+        new Email();
+    ?>
 
     <?php
     // echo $_GET['url'];
