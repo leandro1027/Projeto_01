@@ -1,7 +1,7 @@
 <div class="contato-container">
     <div class="center">
         <form method = "post" action="">
-            <input type="text" naome="nome" id="" placeholder="Nome: ">
+            <input type="text" name="nome" id="" placeholder="Nome: ">
             <input type="text" name="email" id="" placeholder="E-mail: ">
             <input type="text" name="telefone" id="" placeholder="Telefone: ">
             <textarea name="mensagem" id="" placeholder="Digite sua mensagem"></textarea>
