@@ -5,10 +5,8 @@
     font-family: "Open Sans", sans-serif;
 }
 
-/*Boot Css*/
-
-html,
-body {
+/*Boot CSS*/
+html, body{
     overflow-x: hidden;
     height: 100%;
 }
@@ -21,6 +19,7 @@ body {
 
 img {
     width: 100%;
+    margin-top: 5px;
 }
 
 .w50 {
@@ -45,64 +44,52 @@ img {
     clear: both;
 }
 
-/*Estilização do site*/
+/*Estilização do Site*/
 
-/*Header*/
-
+/*header*/
 header {
     background-color: rgb(75, 221, 75);
     padding: 20px 0;
 }
 
 header .logo {
-    font-size: 20px;
-    color: white;
-    text-transform: uppercase;
+    width: 30px;
+    height: 30px;
+
 }
 
 .mobile {
-    display: none;
+    display: none; /*remover o menu do mobile*/
 }
 
 nav.desktop ul {
-    list-style-type: none;
+    list-style-type: none; /*tirar os círculos*/
 }
 
 nav.desktop li {
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 0 20px;
+    text-transform: uppercase; /*Tudo para maíusculo*/
+    display: inline-block; /*alinhar na horizontal*/
+    padding: 0 20px; /*espaçamento interno*/
 }
 
 nav.desktop a {
     color: white;
+    /*Cor da fonte*/
     text-decoration: none;
+    /*Retirar o sublinhado*/
 }
 
 /*Banner principal*/
-
 section.banner-principal {
     width: 100%;
+    /*Largura de 100%*/
     height: 600px;
+    /*Altura de 600px*/
     position: relative;
+    /*Posição relativa*/
 }
 
-section.descricao-autor {
-    padding: 30px 0;
-}
-
-section.descricao-autor h2 {
-    font-size: 32px;
-}
-
-section.descricao-autor p {
-    margin-top: 10px;
-    font-size: 18px;
-    text-align: justify;
-}
-
-
-.banner-single {
+.banner-single{
     z-index: 0;
     position: absolute;
     left: 0;
@@ -111,54 +98,87 @@ section.descricao-autor p {
     height: 100%;
     background-size: cover;
     background-position: center;
+    
 }
 
-section .overlay {
+section.overlay {
     z-index: 1;
+    /*Posição de prioridade na tela*/
     left: 0;
+    /*Fixando na esquerda*/
     top: 0;
+    /*Fixando no topo*/
     width: 100%;
+    /*Largura de 100%*/
     height: 100%;
+    /*Altura de 100%*/
     background-color: rgba(20, 20, 20, 0.3);
+    /*Cor de fundo*/
     position: absolute;
+    /*Posição absoluta*/
 }
 
 section.banner-principal form {
     z-index: 2;
+    /*Posição de prioridade na tela*/
     width: 98%;
     max-width: 600px;
+    /*Largura máxima*/
     position: absolute;
+    /*Posição absoluta*/
     left: 50%;
+    /*50% a esquerda*/
     top: 50%;
+    /*50% a cima*/
     transform: translate(-50%, -50%);
+    /*Centralizar*/
     -ms-transform: translate(-50%, -50%);
+    /*Centralizar*/
 }
 
 section.banner-principal form h2 {
     color: white;
+    /*Cor da fonte*/
     font-size: 32px;
+    /*Tamanho da fonte*/
     text-align: center;
+    /*Alinhar no centro*/
 }
 
 section.banner-principal form input[type=email] {
-    width: 100%;
-    height: 50px;
+    width: 100%; /*Largura de 100%*/
+    height: 50px; /*Altura de 50px*/
     margin-top: 10px;
     background-color: white;
     color: black;
     font-size: 24px;
     padding-left: 10px;
-    border: 1px solid green;
+    border: 1px solid green; /*Borda*/
 }
 
 section.banner-principal form input[type=submit] {
-    width: 100%;
-    height: 50px;
+    width: 100%; /*Largura de 100%*/
+    height: 50px; /*Altura de 50px*/
     margin-top: 10px;
     background-color: rgb(75, 221, 75);
     color: white;
-    font: 24px;
-    cursor: pointer;
+    font-size: 24px;
+    cursor: pointer; /*Tipo do cursor do mouse*/
+}
+
+/*descricao-autor*/
+section.descricao-autor{
+    padding: 30px 0; /*Espaçamento interno cima e baixo*/
+}
+
+section.descricao-autor h2{
+    font-size: 32px; /*Tamanho da fonte*/
+}
+
+section.descricao-autor p{
+    margin-top: 10px; /*Espaçamento externo cima*/
+    font-size: 18px; /*Tamanho da fonte*/
+    text-align: justify; /*Alinhamento justificado*/
 }
 
 /*Especialidades*/
@@ -166,7 +186,7 @@ section.especialidades {
     text-align: center;
     font-size: 18px;
     padding: 20px 0;
-    background-color: rgb(117, 243, 117);
+    background-color: rgb(75, 221, 75);
 }
 
 section.especialidades .title {
@@ -186,7 +206,6 @@ section.especialidades .title {
 }
 
 /*Extras*/
-
 section.extras {
     padding: 20px 0;
     background-color: rgb(214, 250, 214);
@@ -227,25 +246,52 @@ p.nome-autor {
 }
 
 
-section.erro-404 {
+/*Página 404*/
+section.erro-404{
     padding: 100px;
     text-align: center;
     min-height: 500px;
     font-size: 24px;
 }
 
-section.erro-404 i {
+section.erro-404 i{
     padding: 0 10px;
 }
 
-section.erro-404 h2 {
+section.erro-404 h2{
     border-bottom: 2px solid black;
 }
 
-section.erro-404 a {
+section.erro-404 a{
     color: rgb(75, 221, 75);
 }
 
+/*WhatsApp Button*/
+
+.btnWhatsApp{
+    z-index: 999;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    right: 30px;
+    background-color: rgb(75, 221, 75);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 10px 10px 10px black;
+    animation-name: whatsApp;
+    animation-duration: 6s;
+    animation-iteration-count: 3;
+}
+
+@keyframes whatsApp{
+    from{background-color: rgb(75, 221, 75);}
+    to{background-color: black;}
+}
+
+/*Footer*/
 footer {
     background-color: rgb(75, 221, 75);
     padding: 10px;
@@ -254,54 +300,54 @@ footer {
     font-weight: bold;
 }
 
-footer.fixed {
+footer.fixed{
     position: fixed;
     bottom: 0px;
     width: 100%;
 }
 
-/*contato*/
-.contato-container {
+/*Página Contato*/
+
+.contato-container{
     display: block;
     max-width: 800px;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
-.contato-container input[type="text"] {
+.contato-container input[type="text"]{
     width: 100%;
     margin: 6px 0;
     padding: 8px;
     font-size: 18px;
 }
 
-.contato-container textarea {
+.contato-container textarea{
     width: 100%;
     margin: 6px 0;
     padding: 8px;
     font-size: 18px;
     min-height: 150px;
-    resize: none;
+    resize: vertical;
 }
 
-.contato-container input[type="submit"] {
+.contato-container input[type="submit"]{
     width: 100%;
     margin: 6px 0;
     padding: 8px;
     font-size: 18px;
-    background-color: rgb(117, 243, 117);
-    cursor: pointer;
+    background-color: rgb(75, 221, 75);
 }
 
-.bullets {
+/*bullets*/
+.bullets{
     position: absolute;
     z-index: 2;
     left: 50%;
     transform: translateX(-50%);
     bottom: 10px;
-    display: flex;
 }
 
-.bullets span {
+.bullets span{
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -311,20 +357,30 @@ footer.fixed {
     margin: 5px;
 }
 
-.bullets span.active-slider {
+.bullets span.active-slider{
     background-color: rgb(75, 221, 75);
 }
 
-.map iframe {
-    width: 100%;
-    height: 400px;
+.map iframe{
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    height: 600px;
 }
 
+/*@media screen -> Mobile*/
 @media screen and (max-width: 768px) {
     img {
         display: block;
+        /*Display na vertical*/
         margin: 0 auto;
+        /*Centralizado*/
         max-width: 600px;
+        /*Largura Máxima*/
+    }
+
+    .w33 {
+        width: 100%;
     }
 
     .w50 {
@@ -332,12 +388,9 @@ footer.fixed {
         width: 100%;
     }
 
-    .w33 {
-        width: 100%;
-    }
-
     nav.desktop {
         display: none;
+        /*escondendo o menu desktop*/
     }
 
     nav.mobile {
@@ -373,4 +426,7 @@ footer.fixed {
         font-size: 22px;
     }
 
+    .map iframe{
+        height: 400px;
+    }
 }
