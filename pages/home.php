@@ -1,9 +1,9 @@
  <!--Banner principal-->
  <section class="banner-principal">
 
-     <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/bg_slide1.jpg')" class="banner-single"> </div>
-     <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/bg_slide2.jpg')" class="banner-single"> </div>
-     <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/bg_slide3.jpg')" class="banner-single"> </div>
+     <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/fundo mosaico.jpg')" class="banner-single"> </div>
+     <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/fundo3.jpg')" class="banner-single"> </div>
+     <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/maxresdefault.jpg')" class="banner-single"> </div>
 
      <div class="overlay"></div>
      <div class="center">
@@ -24,15 +24,13 @@
      <div class="center">
          <div class="w50 left">
              <h2>Leandro Balaban</h2>
-             <p>Lorem ipsum, dolor sit amet
-                 consectetur adipisicing elit. Dolor rerum assumendaepellat,
-                 exercitationem .</p>
+             <p>A história do Sport Club Corinthians Paulista cobre mais de um século do futebol brasileiro, sediado na cidade de São Paulo e fundado em 1 de setembro de 1910 é reconhecido como um dos mais bem-sucedidos entre as equipes do futebol do Brasil..</p>
              <p>Lorem ipsum, dolor sit amet
                  consectetur adipisicing elit. Dolor rerum assumendaepellat,
                  exercitationem .</p>
          </div>
          <div class="w50 left">
-             <img src="<?php echo INCLUDE_PATH; ?>assets/img/imagem-ifpr.jpg" alt="Local de trabalho">
+             <img src="<?php echo INCLUDE_PATH; ?>assets/img/walpaper corinthains.jpg" alt="Local de trabalho">
          </div>
          <div class="clear"></div>
          <!--Clear float-->

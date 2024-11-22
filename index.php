@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--SFO = Search Engine Optimization-->
-    <meta name="description" content="Descrição do site">
-    <meta name="keywords" content="Palavra-chave 1, 2, 3, etc">
+    <meta name="description" content="Noticias sobre Corinthians">
+    <meta name="keywords" content="Corinthians, noticias">
 
     <!--Google Fonts Open-Sans-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,11 +28,10 @@
     <!--favicon-->
     <link rel="shortcut icon" href="<?php echo INCLUDE_PATH; ?>favicon.ico" type="image/x-icon">
 
-    <title>IFPR</title>
+    <title>Corinthians News</title>
 </head>
 
 <body>
-
 
     <?php
     //echo $_GET["url"]; printar na tela a url
@@ -54,7 +53,7 @@
         <div class="center">
             <div class="logo left">
                 <a href="<?php echo INCLUDE_PATH;?>">
-                    <img src="<?php echo INCLUDE_PATH;?>ifpr_logo.png" alt="IFPR">
+                    <img src="<?php echo INCLUDE_PATH;?>corinthains_logo.png" alt="IFPR">
                 </a>
             </div>
             <nav class="desktop right">

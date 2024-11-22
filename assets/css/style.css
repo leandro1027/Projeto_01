@@ -26,6 +26,9 @@ img {
     padding: 0 1%;
     width: 50%;
 }
+.w50 img{
+    border-radius: 10px;
+}
 
 .w33 {
     padding: 0 1%;
@@ -48,13 +51,13 @@ img {
 
 /*header*/
 header {
-    background-color: rgb(75, 221, 75);
+    background-color: rgb(0, 0, 0);
     padding: 20px 0;
 }
 
 header .logo {
-    width: 30px;
-    height: 30px;
+    width: 90px;
+    height: 90px;
 
 }
 
@@ -70,6 +73,7 @@ nav.desktop li {
     text-transform: uppercase; /*Tudo para maíusculo*/
     display: inline-block; /*alinhar na horizontal*/
     padding: 0 20px; /*espaçamento interno*/
+    margin-top: 25px;
 }
 
 nav.desktop a {
