@@ -11,11 +11,13 @@
     <meta name="description" content="Noticias sobre Corinthians">
     <meta name="keywords" content="Corinthians, noticias">
 
-    <!--Google Fonts Open-Sans-->
+    <!--Fonte-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <!--Fonte-->
 
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -115,7 +117,7 @@
     <script src="<?php echo INCLUDE_PATH; ?>assets/js/slider.js"></script>
     <script src="<?php echo INCLUDE_PATH; ?>assets/js/melhorEmail.js"></script>
     <!--WhatsApp Button-->
-    <a href="https://wa.me/554221021443" class="btnWhatsApp" target="_blank">
+    <a href="https://wa.me/551131524000" class="btnWhatsApp" target="_blank">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
     <?php } ?>
