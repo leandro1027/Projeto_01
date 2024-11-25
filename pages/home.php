@@ -41,26 +41,26 @@
  <!--Especialidades-->
  <section class="especialidades">
      <div class="center">
-         <h2 class="title">Especialidades</h2>
+         <h2 class="title">Corinthians News</h2>
          <div class="w33 left box-especialidades">
-             <h3><i class="fa-brands fa-html5"></i></h3>
-             <h3>HTML 5</h3>
+             <h3><i class="fa-solid fa-futbol"></i></h3>
+             <h3>Futebol</h3>
              <p>Lorem ipsum dolor, sit amet consectetur
                  adipisicing elit. Iste dolorum excepturi itaque veritatis
                  quam magnam, facilis eligendi incidunt consectetur
                  voluptas praesentium aliquid rerum fugiat</p>
          </div>
          <div class="w33 left box-especialidades">
-             <h3><i class="fa-brands fa-css3"></i></h3>
-             <h3>CSS 3</h3>
+             <h3><i class="fa-solid fa-newspaper"></i></h3>
+             <h3>Noticias</h3>
              <p>Lorem ipsum dolor, sit amet consectetur
                  adipisicing elit. Iste dolorum excepturi itaque veritatis
                  quam magnam, facilis eligendi incidunt consectetur
                  voluptas praesentium aliquid rerum fugiat</p>
          </div>
          <div class="w33 left box-especialidades">
-             <h3><i class="fa-brands fa-js"></i></h3>
-             <h3>JS</h3>
+             <h3><i class="fa-solid fa-house-chimney-user"></i></h3>
+             <h3>Setoristas</h3>
              <p>Lorem ipsum dolor, sit amet consectetur
                  adipisicing elit. Iste dolorum excepturi itaque veritatis
                  quam magnam, facilis eligendi incidunt consectetur
