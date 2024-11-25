@@ -20,23 +20,18 @@
  </section>
  <!--Banner principal-->
 
- <!--Descrição autor-->
- <section class="descricao-autor">
-     <div class="center">
-         <div class="w50 left">
-             <h2>Leandro Balaban</h2>
-             <p>A história do Sport Club Corinthians Paulista cobre mais de um século do futebol brasileiro,
-                 sediado na cidade de São Paulo e fundado em 1 de setembro de 1910 é reconhecido como um dos
-                 mais bem-sucedidos entre as equipes do futebol do Brasil..</p>
-         </div>
-         <div class="w50 left">
-             <img src="<?php echo INCLUDE_PATH; ?>assets/img/walpaper corinthains.jpg" alt="Local de trabalho">
-         </div>
-         <div class="clear"></div>
-         <!--Clear float-->
-     </div>
- </section>
- <!--Descrição autor-->
+ <!--Imagem com texto ao lado-->
+ <div class="imagem-texto">
+        <img src="assets/img/walpaper corinthains.jpg" alt="História Corinthians" class="image">
+        <div class="text">
+            <p>
+                A história do Sport Club Corinthians Paulista cobre mais de um século do futebol brasileiro, sediado na
+                cidade de São Paulo e fundado em 1 de setembro de 1910 é reconhecido como um dos mais bem-sucedidos
+                entre as equipes do futebol do Brasil. </p>
+        </div>
+    </div>
+    <!--Imagem com texto ao lado-->
+
 
  <!--Especialidades-->
  <section class="especialidades">
