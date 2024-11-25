@@ -40,87 +40,46 @@
          <div class="w33 left box-especialidades">
              <h3><i class="fa-solid fa-futbol"></i></h3>
              <h3>Futebol</h3>
-             <p>Lorem ipsum dolor, sit amet consectetur
-                 adipisicing elit. Iste dolorum excepturi itaque veritatis
-                 quam magnam, facilis eligendi incidunt consectetur
-                 voluptas praesentium aliquid rerum fugiat</p>
+             <p>O futebol moderno surgiu na Inglaterra durante o século XIX, mas relatos históricos apontam que já existiam práticas esportivas parecidas. Atualmente, grandes competições de futebol são organizadas todos os anos.</p>
          </div>
          <div class="w33 left box-especialidades">
              <h3><i class="fa-solid fa-newspaper"></i></h3>
              <h3>Noticias</h3>
-             <p>Lorem ipsum dolor, sit amet consectetur
-                 adipisicing elit. Iste dolorum excepturi itaque veritatis
-                 quam magnam, facilis eligendi incidunt consectetur
-                 voluptas praesentium aliquid rerum fugiat</p>
+             <p>O futebol moderno surgiu na Inglaterra durante o século XIX, mas relatos históricos apontam que já existiam práticas esportivas parecidas. Atualmente, grandes competições de futebol são organizadas todos os anos.</p>
          </div>
          <div class="w33 left box-especialidades">
              <h3><i class="fa-solid fa-house-chimney-user"></i></h3>
              <h3>Setoristas</h3>
-             <p>Lorem ipsum dolor, sit amet consectetur
-                 adipisicing elit. Iste dolorum excepturi itaque veritatis
-                 quam magnam, facilis eligendi incidunt consectetur
-                 voluptas praesentium aliquid rerum fugiat</p>
+             <p>O futebol moderno surgiu na Inglaterra durante o século XIX, mas relatos históricos apontam que já existiam práticas esportivas parecidas. Atualmente, grandes competições de futebol são organizadas todos os anos.</p>
          </div>
          <div class="clear"></div>
      </div>
  </section>
  <!--Especialidades-->
 
- <!--Extras-->
  <section class="extras">
-     <div class="center">
-         <div id="depoimentos" class="w50 left depoimentos-container">
-             <h2 class="title">Depoimentos</h2>
-             <div class="depoimento-single">
-                 <p class="depoimento-descricao">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Assumenda, totam repudiandae? Officiis id nemo iste ipsa
-                     perferendis quas totam natus voluptatem
-                     ,quisquam, quidem illo velit vel illum qui accusantium reiciendis?
-                 </p>
-                 <p class="nome-autor">Lorem ipsum</p>
-             </div>
-             <div class="depoimento-single">
-                 <p class="depoimento-descricao">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate
-                     saepe consequuntur voluptatibus quae placeat, nostrum sunt illo numquam,
-                     aliquid dolore, quas ullam recusandae? Iste eum rem qui laboriosam minima.
-                 </p>
-                 <p class="nome-autor">Lorem ipsum</p>
-             </div>
-             <div class="depoimento-single">
-                 <p class="depoimento-descricao">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate
-                     saepe consequuntur voluptatibus quae placeat, nostrum sunt illo numquam,
-                     aliquid dolore, quas ullam recusandae? Iste eum rem qui laboriosam minima.
-                 </p>
-                 <p class="nome-autor">Lorem ipsum</p>
-             </div>
-         </div>
-
-         <div id="servicos" class="w50 left servicos-container">
-             <h2 class="title">Serviços</h2>
-             <div class="servicos">
-                 <ul>
-                     <li>
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-                         animi aut, eius, ullam quo illum veniam excepturi nostrum a cumque facilis
-                         deleniti laudantium ratione dicta? Enim hic aspernatur praesentium tenetur.
-                     </li>
-                     <li>
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-                         animi aut, eius, ullam quo illum veniam excepturi nostrum a cumque facilis
-                         deleniti laudantium ratione dicta? Enim hic aspernatur praesentium tenetur.
-                     </li>
-                     <li>
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
-                         animi aut, eius, ullam quo illum veniam excepturi nostrum a cumque facilis
-                         deleniti laudantium ratione dicta? Enim hic aspernatur praesentium tenetur.
-                     </li>
-                 </ul>
-             </div>
-         </div>
-
+    <div class="center">
+        <div class="extras-container">
+            <!-- Coluna do vídeo -->
+            <div class="video-container">
+                <iframe 
+                    width="100%" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/OJmY43QDhVo" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <!-- Coluna da notícia -->
+            <div class="noticia-container">
+                <h3>Com inicio avassalador, Corinthians atropela o Vasco.</h3>
+                <p>Ontem, pela 35ª rodada do Brasileirão Série A, o Corinthians venceu o Vasco por 3 a 1 na Neo Química Arena, em São Paulo. O destaque da partida foi Rodrigo Garro, que marcou dois gols e deu uma assistência. Gustavo Henrique abriu o placar para o Timão aos 11 minutos, e Garro ampliou com dois gols ainda no primeiro tempo. O Vasco tentou reagir no segundo tempo, marcando com Puma Rodríguez, mas não conseguiu reverter a desvantagem. Com o resultado, o Corinthians manteve sua força em casa e garantiu mais três pontos na tabela​</p>
+            </div>
+        </div>
+    </div>
+</section>
          <div class="clear"></div>
          <!--clear float-->
      </div>
