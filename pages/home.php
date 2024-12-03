@@ -34,26 +34,28 @@
 
  <!--Especialidades-->
  <section class="especialidades">
-     <div class="center">
-         <h2 class="title">Corinthians News</h2>
-         <div class="w33 left box-especialidades">
-             <h3><i class="fa-solid fa-futbol"></i></h3>
-             <h3>Futebol</h3>
-             <p>O futebol moderno surgiu na Inglaterra durante o século XIX, mas relatos históricos apontam que já existiam práticas esportivas parecidas. Atualmente, grandes competições de futebol são organizadas todos os anos.</p>
-         </div>
-         <div class="w33 left box-especialidades">
-             <h3><i class="fa-solid fa-newspaper"></i></h3>
-             <h3>Noticias</h3>
-             <p>O futebol moderno surgiu na Inglaterra durante o século XIX, mas relatos históricos apontam que já existiam práticas esportivas parecidas. Atualmente, grandes competições de futebol são organizadas todos os anos.</p>
-         </div>
-         <div class="w33 left box-especialidades">
-             <h3><i class="fa-solid fa-house-chimney-user"></i></h3>
-             <h3>Setoristas</h3>
-             <p>O futebol moderno surgiu na Inglaterra durante o século XIX, mas relatos históricos apontam que já existiam práticas esportivas parecidas. Atualmente, grandes competições de futebol são organizadas todos os anos.</p>
-         </div>
-         <div class="clear"></div>
-     </div>
- </section>
+    <div class="center">
+        <h2 class="title">Corinthians News</h2>
+        <div class="box-container">
+            <div class="box-especialidades">
+                <h3><i class="fa-solid fa-futbol"></i></h3>
+                <h3>Futebol</h3>
+                <p>O futebol moderno surgiu na Inglaterra durante o século XIX, mas relatos históricos apontam que já existiam práticas esportivas parecidas. Atualmente, grandes competições de futebol são organizadas todos os anos.</p>
+            </div>
+            <div class="box-especialidades">
+                <h3><i class="fa-solid fa-newspaper"></i></h3>
+                <h3>Notícias</h3>
+                <p>O futebol moderno surgiu na Inglaterra durante o século XIX, mas relatos históricos apontam que já existiam práticas esportivas parecidas. Atualmente, grandes competições de futebol são organizadas todos os anos.</p>
+            </div>
+            <div class="box-especialidades">
+                <h3><i class="fa-solid fa-house-chimney-user"></i></h3>
+                <h3>Setoristas</h3>
+                <p>O futebol moderno surgiu na Inglaterra durante o século XIX, mas relatos históricos apontam que já existiam práticas esportivas parecidas. Atualmente, grandes competições de futebol são organizadas todos os anos.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
  <!--Especialidades-->
 
  <section class="extras">

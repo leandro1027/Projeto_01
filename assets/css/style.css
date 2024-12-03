@@ -178,6 +178,7 @@ section.banner-principal form input[type=submit] {
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 30px;
     padding: 20px;
     align-items: center;
 }
@@ -194,34 +195,92 @@ section.banner-principal form input[type=submit] {
     color: #333;
     text-align: center;
 }
+
+
 /* Imagem com texto ao lado */
 /*Especialidades*/
 section.especialidades {
     text-align: center;
     font-size: 18px;
-    padding: 20px 0;
-    background-color: rgb(0, 0, 0);
+    padding: 40px 0;
+    background-image: url(../img/backEspecialidades2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+}
+
+section.especialidades::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Overlay escuro para melhorar a legibilidade */
+    z-index: 1;
+}
+
+section.especialidades .center {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section.especialidades .title {
     font-size: 40px;
-    color: white;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Aumenta a sombra no título */
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .box-especialidades {
-    margin: 20px 0;
+    background: rgba(0, 0, 0, 0.3); /* Fundo mais transparente */
+    border: 2px solid #aaa;
+    padding: 30px; /* Aumentei o padding para aumentar a altura das caixas */
+    border-radius: 15px;
+    width: 350px; /* Aumentei a largura das caixas */
     color: white;
+    transition: transform 0.3s;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Sombra mais forte no texto */
+    backdrop-filter: blur(4px); /* Menor valor de desfoque */
+    -webkit-backdrop-filter: blur(4px); /* Compatibilidade no Safari */
+}
+
+.box-especialidades:hover {
+    transform: scale(1.05);
+    border-color: #fff;
 }
 
 .box-especialidades h3 i {
-    font-size: 100px;
-    color: white;
+    font-size: 90px;
+    color: #d0d0d0;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.box-especialidades h3 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #d0d0d0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Aumenta a sombra no título das caixas */
 }
 
 .box-especialidades p {
     margin-top: 10px;
-    color: white;
+    color: #e0e0e0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Aumenta a sombra no texto do parágrafo */
 }
+
 
 /* Estilo refinado para formulário mais fino */
 .contato-container {
@@ -330,43 +389,42 @@ h3 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 100px;
     margin-top: 60px;
 }
 
 .carde {
-    width: 325px;
+    width: 300px; /* Largura do card */
+    height: 550px;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 16px; /* Aumentei o raio da borda para tornar o card mais arredondado */
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 20px;
+    margin: 15px;
 }
 
 .carde img {
     width: 100%;
-    height: 50%;
+    height: 45%;
 }
 
 .card-content {
-    padding: 16px;
+    padding: 14px; /* Padding do conteúdo do card */
 }
 
 .card-content h3 {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 8px;
-
 }
 
 .card-content p {
     color: #666;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.3;
 }
 
 .card-content .btn {
     display: inline-block;
-    padding: 8px 16px;
+    padding: 8px 14px;
     background-color: #333;
     text-decoration: none;
     border-radius: 4px;
@@ -375,7 +433,7 @@ h3 {
 }
 
 .card-content .btn:hover {
-    background-color: #ffffff;
+    background-color: #d3d2d2;
     color: black;
     border-color: #000000;
 }
@@ -386,10 +444,11 @@ h3 {
 
 .card {
     background-color: white;
-    padding: 50px;
+    padding: 45px;
     margin-top: 20px;
 }
 /* cards */
+
 
 
 /* Ajuste para dispositivos menores */
