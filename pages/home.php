@@ -3,7 +3,7 @@
 
      <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/fundo3.jpg')" class="banner-single">
      </div>
-     <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/backn3.jpg')" class="banner-single"> </div>
+     <div style="background-image:url('<?php echo INCLUDE_PATH; ?>assets/img/backgroundN3.jpeg')" class="banner-single"> </div>
      </div>
 
      <div class="overlay"></div>
